@@ -30,12 +30,7 @@
     border: solid 1px black;
 }
 
-/* .main-title{
-
-    width: 80%;
-    background-color: red;
-    height: 60px;
-} */
+/* regole main */
 
 @media all and (min-width: 768px) {
     .container-small{
