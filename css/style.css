@@ -28,7 +28,14 @@
     border: solid 1px black;
 }
 
+.main-title{
+    height: 50px;
+    width: 50%;
+    background-color: orange;
+}
+
 /* regole main */
+.about
 
 @media all and (min-width: 768px) {
     .container-small{
