@@ -1,8 +1,11 @@
-[class*="col"]{
+/* [class*="col"]{
     min-height: 60px;
     border: solid 1px black ;
-}
+} */
 
+body{
+    font-size: 20px;
+}
 
 .col-grey{
     background-color: #2c3e50;
@@ -21,7 +24,24 @@
     margin: 0 auto;
 }
 
+.col > img{
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
 /* regole header */
+.fa-bars{
+    font-size: 25px;
+}
 
 .round{
 
