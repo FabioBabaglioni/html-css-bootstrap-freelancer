@@ -19,6 +19,10 @@ body{
     background-color: #1abc9c;
 }
 
+.font-w{
+    color: white;
+}
+
 .container-small{
     width: 100%;
     margin: 0 auto;
@@ -53,14 +57,24 @@ li{
 }
 
 .main-title{
-    height: 50px;
-    width: 50%;
     margin: 0 auto;
-    background-color: orange;
+}
+
+.ms_margin_auto{
+    margin: 0 auto;
 }
 
 /* regole main */
-.about
+
+.img-small{
+    width: 250px;
+}
+
+.line{
+    width: 30px;
+    height: 2px;
+    color: white;
+}
 
 @media all and (min-width: 768px) {
     .container-small{
