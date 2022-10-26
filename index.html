@@ -124,15 +124,32 @@
                     <div class="row justify-content-center mt-4">
                         <div class="col-8">
                             <h3 class="text-center">Portfolio</h3>
-                            <div>Name</div>
-                            <hr>
-                            <div>E-mail adress</div>
-                            <hr>
-                            <div>Phone Number</div>
-                            <hr>
-                            <div>Message</div>
-                            <hr>
-                            <button type="button" class="btn btn-success">Send</button>
+
+                            <form>
+                                <div class="mb-3">
+                                  <label for="name" class="form-label">Name</label>
+                                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Scrivi qui il tuo nome">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="e-mail" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Scrivi qui la tua E-mail">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="telephone" class="form-label">Phone number</label>
+                                    <input type="text" class="form-control" id="telephone" aria-describedby="emailHelp" placeholder="Scrivi qui il numero di cellulare">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="notes" class="form-label">Messaggio</label>
+                                    <input type="text" class="form-control" id="notes" aria-describedby="emailHelp" placeholder="Scrivi qui il numero Messaggio">
+                                </div>
+                               
+
+                                <button type="submit" class="btn btn-primary">Send</button>
+                              </form>
+
                         </div>
                     </div>
 
