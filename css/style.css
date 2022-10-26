@@ -54,12 +54,10 @@ li{
 }
 
 .round{
+border: solid 1px white;
+border-radius: 50%;
+padding: 15px;
 
-    /* debug */
-    width: 20%;
-    height: 100px;
-    background-color: red;
-    border: solid 1px black;
 }
 
 .main-title{
